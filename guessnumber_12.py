@@ -4,10 +4,7 @@ print("Welcome to the number guessing name !")
 print("------------------------------------")
 random_number = random.randint(1, 101)
 print("Iam thinking of a number between 1 and 100")
-
 difficulty = input("Chose a difficulty. Type 'easy' or 'hard': ")
-
-
 
 if difficulty == 'easy':
     hints = 10
@@ -36,5 +33,5 @@ while not game_finished:
         print("------------------------------------")
         print("you loose")
         print("------------------------------------")
-        print(random_number," is the number")
+        print(random_number, " is the number")
         game_finished = True
